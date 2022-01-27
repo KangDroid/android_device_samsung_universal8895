@@ -59,6 +59,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Apex
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# ELF
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Extracted with libbootimg
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
